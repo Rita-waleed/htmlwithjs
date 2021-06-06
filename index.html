@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>here is the title</title>
+</head>
+<body>
+   <h1>Rita logo</h1>
+   <div><ul>
+   	<a href="index.html"><li>Home</li></a>
+   	<a href="index.html"><li>about us</li></a>
+   	<a href="index.html"><li>contact us</li></a>
+   </ul></div>
+   <section>
+   	<h1>content here</h1>
+   	<img style="width: 250px;" src="https://www.state.gov/wp-content/uploads/2019/04/Jordan-2106x1406.jpg">
+   <aside><h1>here is an aside menu</h1></aside>
+</section>
+<p>Click the button to demonstrate the prompt box.</p>
+<button onclick="sum()">What 1 + 1 equals?</button>
+<script>
+	var num1 = 1;
+   var num2 = 1;
+  if (num1 + num2 == 2) {
+    function sum() {
+  confirm("The answer is 2 yay!!!");
+}
+  }
+</script>
+<button onclick="myFunction()">Click to enter your name</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var person = prompt("Please enter your name here", "Rita Waleed");
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hello " + person + "! Welcome to my website !";
+  }
+}
+</script>
+
+</body>
+<footer>
+	<h2>all copy right 2021 protected</h2>
+	<p>created by rita</p>
+</footer>
+</html>
